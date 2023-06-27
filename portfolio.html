@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Khupenia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+<body>
+    <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+        </script>
+    <div class="header">
+        <a href="index.html" class="logo">Toko Khupenia <img src="images/tokologo.png" height="30"></a>
+        <div class="header-right">
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="tabout.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+              </div>
+              
+              <div id="main">
+                <button class="openbtn" onclick="openNav()">&#9776;</button>
+              </div>
+        </div>
+      </div>
+      
+      <div>
+        <div class="maincontent">
+            <p class="tkp">My photo gallery</p>
+            <div class="container">
+                <div><h2>France</h2><img src="images/1.jpg" height="200px" ><p>Cixisdziri Castle</p></div>
+                <div><h2>Germany</h2><img src="images/2.jpg" height="200px" ><p>Cixisdziri hillside medow</p></div>
+                <div><h2>Italy</h2><img src="images/3.jpg" height="200px" ><p>Cemetery at sunset</p></div>
+              </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div>
+            <p>Gmail: tornike.khupenia.dmc21@gipa.ge</p>
+            <p>Phone Number: +995 579 151 164</p>
+            <p><i class="fa-brands fa-twitter">&nbsp&nbsp</i><i class="fa-brands fa-facebook">&nbsp&nbsp</i>Toko Khupenia</p>
+        </div>
+      </div>
+</body>
+</html>
